@@ -46,7 +46,7 @@ The main idea of this repo is to give you, at a minimum:
 - Short weekly interactive calls (2h) with teachers to teach you and answer your questions
 - Ability to talk to them over GitHub issues or Slack over the week
 - Practical examples and weekly assignments
-- Save you about **600 EUR** for a preparation course for `ISTQB Certified Tester Foundation Level, CTFL` cost
+- Save you about **600 EUR**, as this is the preparation course for `ISTQB Certified Tester Foundation Level, CTFL` cost
 
 ### What this course is **NOT**:
 
