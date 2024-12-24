@@ -16,7 +16,7 @@ Fork the repo or create a new branch in this repo.
 - In the assignment branch, create a new folder with your GitHub account ID in [/assignments/Chapter_1/solutions](../assignments/Chapter_1/solutions), replacing `Chapter_1` with the corresponding week's chapter
 - Add the needed files to complete the assignment
 - Create a PR back to this repo for the `main` branch, titled with the assignment issue title and including `#ID`. Also, put a link to the assignment issue in the PR's description.
-  In this case, the title is `Chapter 1: Assignment #2 `, and the link to add to the description is [https://github.com/xoriors/qa-manual-course/issues/2](https://github.com/xoriors/qa-manual-course/issues/2)
+  In this case, the title is `Chapter 1: Assignment #2 `, and the link to add to the description is [`https://github.com/xoriors/qa-manual-course/issues/2`](https://github.com/xoriors/qa-manual-course/issues/2)
 - Assign the PR to a reviewer
 - Follow up on any comments and questions, pushing additional changes to the PR's branch until the PR is merged
 
