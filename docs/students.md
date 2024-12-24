@@ -23,8 +23,8 @@ Fork the repo or create a new branch in this repo.
 ## Final project
 
 - After the course is finished, the course project will have a final project assignment. Please complete that based on your availability and ask any questions in the issue or on Slack
-- While working on it, please follow the steps from [How to submit your weekly home assignments](#how-to-submit-your-weekly-home-assignments)
+- While working on it, please follow the steps from `How to submit your weekly home assignments`
 
 ## Certification exam
 
-Please collaborate with teachers to guide you through this process. The cost of the exam is about 200 EUR.
+Please collaborate with teachers to guide you through this process. The exam costs about 200 EUR.
