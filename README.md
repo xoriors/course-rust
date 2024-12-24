@@ -48,14 +48,16 @@ Introduction
 20. Final Project: Building a Multithreaded Web Server
 21. Appendix
 
+### Additional material
+
 - Videos about the book https://m.youtube.com/watch?v=OX9HJsJUDxA&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8
 - Learn by doing
   https://mo8it.com/blog/rustlings-rewrite/
   https://blog.jetbrains.com/education/2019/12/19/rustlings-course-adaptation/
 
-### Additional material
+#### More additional material
 
-- Learn about liked lists and also about Option and Result https://rust-unofficial.github.io/too-many-lists/
+- Learn about liked lists and also about Option https://rust-unofficial.github.io/too-many-lists/
 - Networking
   - https://tokio.rs/tokio/tutorial
   - https://rust-lang.github.io/async-book/01_getting_started/01_chapter.html
