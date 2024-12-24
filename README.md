@@ -48,6 +48,35 @@ Introduction
 20. Final Project: Building a Multithreaded Web Server
 21. Appendix
 
+### Additional material
+
+- Videos about the book https://m.youtube.com/watch?v=OX9HJsJUDxA&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8
+- Learn by doing
+  https://mo8it.com/blog/rustlings-rewrite/
+  https://blog.jetbrains.com/education/2019/12/19/rustlings-course-adaptation/
+- Learn also about Option and Result https://rust-unofficial.github.io/too-many-lists/
+- Networking
+  - https://tokio.rs/tokio/tutorial
+  - https://rust-lang.github.io/async-book/01_getting_started/01_chapter.html
+  - https://ibraheem.ca/posts/too-many-web-servers/
+  - https://www.howtocodeit.com/articles/master-hexagonal-architecture-rust
+- Improve your Rust APIs with the type state pattern https://youtu.be/_ccDqRTx-JU?si=uBUYJbu4JCmt_YGW
+  - https://youtu.be/oY0XwMOSzq4?si=jrWb6HY8lQ7BwyWy
+  - https://doc.rust-lang.org/nomicon/borrow-splitting.html
+  - https://youtu.be/gof_OEv71Aw?si=9agRjeHULpXM_HQS
+  - https://marabos.nl/atomics/
+- Project ideas
+  - https://github.com/practical-tutorials/project-based-learning?tab=readme-ov-file#rust
+  - chat app https://drive.google.com/file/d/15g0vkQRuxt7pYZL_G6i0apj8TSsV68BY/view?usp=drivesdk
+  - password manager
+  - encrypted sticky notes
+  - logs parser and analyzer
+  - 1 billion rows challenge (this is an interesting one) https://github.com/gunnarmorling/1brc
+  - encrypted filesystem exposed with fuse3
+  - distributed filesystem
+  - mini Redis
+  - Python library written in Rust using pyo3 to speed slower Python functions, maybe regex lib (edited) 
+
 ## Into the course
 
 - [For teachers](docs/teachers.md).
