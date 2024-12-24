@@ -3,6 +3,7 @@
 This course is based on [The Rust Book](https://doc.rust-lang.org/book/). We also add more practical examples after each chapter and weekly assignments.
 
 > [!IMPORTANT]  
+> Work in progress.
 > The main idea of this repo is to give you, at a minimum:
 > - A complete Rust course based on `The Rust Book`
 > - Additional practical examples and assignments
