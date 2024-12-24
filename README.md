@@ -16,5 +16,5 @@ That course is mostly theoretical, but we add practical examples after each chap
 
 ## Into the course
 
-- [For teachers to follow](teachers.md).
+- [For teachers to follow](dosc/teachers.md).
 - [For students to follow](docs/students.md).
