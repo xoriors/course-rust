@@ -34,8 +34,8 @@ That course is mostly theoretical, but we add practical examples after each chap
 
 ## Into the course
 
-- [For teachers to follow](docs/teachers.md).
-- [For students to follow](docs/students.md).
+- [For teachers](docs/teachers.md).
+- [For students](docs/students.md).
 
 ## What this course gives you and what is **NOT**
 
