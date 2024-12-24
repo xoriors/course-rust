@@ -1,7 +1,7 @@
 # For students to follow
 
 1. Send your GitHub account to any teacher to add you to this repo.
-2. Join [Slack channel](https://xorio.slack.com/archives/C085WSHDPLK). Create an account on Slack if needed, you can do it with your Google account.
+2. Join [Slack channel](https://xorio.slack.com/archives/C085WSHDPLK). Create an account on Slack if needed, you can do it with your Google account
 
 ## Reading the weekly chapter
 
