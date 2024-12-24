@@ -1,13 +1,13 @@
 # For students to follow
 
 1. Send your GitHub account to any teacher to add you to this repo.
-2. Join [Slack channel](https://xorio.slack.com/archives/C085WSHDPLK). Create an account on Slack if needed. You can do it with your Google account
+2. Join [Slack channel](https://xorio.slack.com/archives/C0869LC717B). Create an account on Slack if needed. You can do it with your Google account
 
 ## Reading the weekly chapter
 
 - Locate the chapter GitHub issue in the course project. Let's say it's the [course QA manual 2025](https://github.com/orgs/xoriors/projects/2) for [Chapter 1](https://github.com/xoriors/qa-manual-course/issues/1)
 - Read the corresponding week number chapter from [The Rust Book](https://doc.rust-lang.org/book/)
-- Ask any questions in the issue or to [Slack](https://xorio.slack.com/archives/C0869LC717B)
+- Ask any questions in the issue or to Slack
 
 ## How to submit your weekly home assignments
 
