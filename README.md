@@ -1,20 +1,20 @@
-# qa-manual-course
+# course-rust
 
-This course is based on [ISTQB Certified Tester Foundation Level, CTFL](https://www.istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/) v4.0.1 from 2024. You can access it at [ISTQB_CTFL_Syllabus_v4.0.1.pdf](docs/ISTQB_CTFL_Syllabus_v4.0.1.pdf).  
-That course is mostly theoretical, but we add practical examples after each chapter and weekly home assignments.
+This course is based on [The Rust Book](https://doc.rust-lang.org/book/). We also add more practical examples after each chapter and weekly home assignments.
 
 > [!IMPORTANT]  
 > The main idea of this repo is to give you, at a minimum:
-> - A complete QA manual theoretical course based on `ISTQB Certified Tester Foundation Level, CTFL`
-> - Additional practical examples and tasks
+> - A complete Rust course based on `The Rust Book`
+> - Additional practical examples and assignments
 > - Docs, logistics, a project, and GitHub issues to organize the course interactively
 > - All this Free and Open Source (FOSS)
 
 ## Structure
 
 - Start with a short intro call
-- Will last for 6 weeks + final project
-- Each week, students will read one chapter from the above course
+- Will last for 8 weeks + final project
+- After 2 weeks, students will be able to build something like a simple calculator
+- Each week, students will read few chapters from `The Rust Book`
 - Every week, we'll have a 2h call where we:
   - Discuss last week's assignment
   - Discuss the last week's chapter
@@ -24,13 +24,29 @@ That course is mostly theoretical, but we add practical examples after each chap
 
 ### Chapters
 
-0. Introduction
-1. Fundamentals of Testing
-2. Testing Throughout the Software Development Lifecycle
-3. Static Testing
-4. Test Analysis and Design
-5. Managing the Test Activities
-6. Test Tools – 20 minutes
+Foreword
+Introduction
+1. Getting Started
+2. Programming a Guessing Game
+3. Common Programming Concepts
+4. Understanding Ownership
+5. Using Structs to Structure Related Data
+6. Enums and Pattern Matching
+7. Managing Growing Projects with Packages, Crates, and Modules
+8. Common Collections
+9. Error Handling
+10. Generic Types, Traits, and Lifetimes
+11. Writing Automated Tests
+12. An I/O Project: Building a Command Line Program
+13. Functional Language Features: Iterators and Closures
+14. More about Cargo and Crates.io
+15. Smart Pointers
+16. Fearless Concurrency
+17. Object Oriented Programming Features of Rust
+18. Patterns and Matching
+19. Advanced Features
+20. Final Project: Building a Multithreaded Web Server
+21. Appendix
 
 ## Into the course
 
@@ -41,11 +57,10 @@ That course is mostly theoretical, but we add practical examples after each chap
 
 ### What it gives you:
 
-- Useful materials to prepare you for your QA manual journey, both theoretical and practical
+- Useful materials to help you learn Rust
 - Short weekly interactive calls (2h) with teachers to teach you and answer your questions
 - Ability to talk to them over GitHub issues or Slack over the week
 - Practical examples and weekly assignments
-- Save you about **600 EUR**, as this is the preparation course for `ISTQB Certified Tester Foundation Level, CTFL` cost
 
 ### What it's **NOT**:
 
