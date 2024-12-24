@@ -11,19 +11,20 @@
   - Create GitHub issues for each chapter and assignment, adding all needed docs with relevant links to any resources. All issue descriptions should have a link to [students.md]
   - For the final project, create an assignment issue titled `Final project` and have the requirements in 
 
-## Into the course, for each week (example for Chapter 1)
+## Into the course, for each week
 
-1. Mark the status `In Progress` for the current chapter (let's call it `Chapter 1: Title`). This is when students begin reading it
-2. Resolve any comments and questions in the chapter's issue and on Slack
-3. After the chapter is finished, this is generally after the weekly call for the last week's chapter, mark the issue as `Done`
-4. Inform students about the chapter assignment and set the issue's status to `In Progress`. This issue is generally called 'Chapter 1: Assignment`
-5. Resolve any comments and questions in the assignment's issue and on Slack
-7. Review any PRs to the assignment issue and merge them when completed
-8. After all assignments were addressed, mark the assignment issue as `Done`
+1. Have the weekly call of about 2h to discuss last week's chapter and assignment and intro to this week's chapter and assignment
+2. Review last week's assignment (this corresponds to the chapter from 2 weeks); let's call it `Chapter 1: Assignment`. After this is done, mark the issue as `Done`
+3. Discuss last week's chapter, `Chapter 2: <Title>` clarifying any questions
+4. After this is done, mark the issue as `Done`
+5. Give the assignment for last week's chapter (this is called this week's assignment), discuss any questions, and set the issue's status to `In Progress`
+6. Move to this week's chapter, `Chapter 3: <Title>`, and do a short intro. Mark the status `In Progress` for the current chapter.
+7. This is where the call ends
+8. Over the week, resolve any comments and questions in the week's chapter and assignment issues and on Slack
 
 ## Final project
 
-Follow similar steps to `Into the course, for each week (example for Chapter 1)` just ignoring the chapter part.
+Follow similar assignment steps to `Into the course, for each week`, ignoring the chapter steps.
 
 ## After the course
 
