@@ -38,9 +38,9 @@ The main idea of this repo is to give you, at a minimum:
 - [For teachers to follow](docs/teachers.md).
 - [For students to follow](docs/students.md).
 
-## What this course is and what is **NOT**
+## What this course gives you and what is **NOT**
 
-### What this course gives you:
+### What it gives you:
 
 - Useful materials to prepare you for your QA manual journey, both theoretical and practical
 - Short weekly interactive calls (2h) with teachers to teach you and answer your questions
@@ -48,7 +48,7 @@ The main idea of this repo is to give you, at a minimum:
 - Practical examples and weekly assignments
 - Save you about **600 EUR**, as this is the preparation course for `ISTQB Certified Tester Foundation Level, CTFL` cost
 
-### What this course is **NOT**:
+### What it's **NOT**:
 
 - Exhaustive learning course with every day sessions with teachers
 - Paid course
