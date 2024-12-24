@@ -21,9 +21,9 @@ The main idea of this repo is to give you, at a minimum:
   - Discuss the last week's chapter
   - Address any questions (this will happen also over the week via Slack or GitHub issues)
   - Discuss practical examples
-  - Give new assignment for last week's chapter
+  - Give a new assignment for last week's chapter
 
-## Chapters
+### Chapters
 
 0. Introduction..........................................................10
 1. Fundamentals of Testing – 180 minutes ................................14
