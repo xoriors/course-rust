@@ -24,4 +24,4 @@
 ## Final project
 
 - After the course is finished, the course project will have a final project assignment. Please complete that based on your availability and ask any questions in the issue or on Slack
-- While working on it, please follow the steps from [#how-to-submit-your-weekly-home-assignments]
+- While working on it, please follow the steps from [How to submit your weekly home assignments](#how-to-submit-your-weekly-home-assignments)
