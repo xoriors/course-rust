@@ -24,13 +24,13 @@ That course is mostly theoretical, but we add practical examples after each chap
 
 ### Chapters
 
-0. Introduction..........................................................10
-1. Fundamentals of Testing – 180 minutes ................................14
-2. Testing Throughout the Software Development Lifecycle – 130 minutes...24
-3. Static Testing – 80 minutes ..........................................32
-4. Test Analysis and Design – 390 minutes ...............................38
-5. Managing the Test Activities – 335 minutes............................47
-6. Test Tools – 20 minutes ..............................................58
+0. Introduction
+1. Fundamentals of Testing
+2. Testing Throughout the Software Development Lifecycle
+3. Static Testing
+4. Test Analysis and Design
+5. Managing the Test Activities
+6. Test Tools – 20 minutes
 
 ## Into the course
 
