@@ -13,13 +13,13 @@
 
 ## Into the course, for each week (example for Chapter 1)
 
-1. Mark the status `In Progress` for the current chapter (let's call it Chapter 1). This is when students begin reading it
-2. Resolve any comments and questions in the chapter's issue
+1. Mark the status `In Progress` for the current chapter (let's call it `Chapter 1: Title`). This is when students begin reading it
+2. Resolve any comments and questions in the chapter's issue and on Slack
 3. After the chapter is finished, this is generally after the weekly call for the last week's chapter, mark the issue as `Done`
-4. Inform students about the chapter assignment and set the status of the issue to `In Progress`
-5. Resolve any comments and questions in the assignment's issue
+4. Inform students about the chapter assignment and set the issue's status to `In Progress`. This issue is generally called 'Chapter 1: Assignment`
+5. Resolve any comments and questions in the assignment's issue and on Slack
 7. Review any PRs to the assignment issue and merge them when completed
-8. After all assignments were addressed mark the assignment issue as `Done`
+8. After all assignments were addressed, mark the assignment issue as `Done`
 
 ## Final project
 
