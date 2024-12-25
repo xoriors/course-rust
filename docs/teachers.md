@@ -7,7 +7,8 @@
 3. [assignments](../assignments) structure (usually this exists already. Make sure it's valid and change as needed):  
    A folder for each chapters group, like `Chapter_1-3` with the following structure:
      - `requirements` folder: Containing a file called `Chapter_N-M_assignment.md` with the requirements and any other needed resources
-     - `solutions` folder: Will contain folders with the student's GitHub account ID, each containing submissions from each student. Each will have an associated PR
+     - `solutions` folder: This folder will contain folders with each student's GitHub account ID, each containing submissions from each student, each with an associated PR.  
+       Make sure this folder is empty so it will contain the solutions from this session
 4. Create a new project called `course-<year>`, where `<year>` is the course's year, mostly the current year
   - Create GitHub issues for each chapter and assignment, adding all needed docs with relevant links to any resources. All issue descriptions should have a link to [students.md]
   - For the final project, create an assignment issue titled `Final project` and have the requirements in 
