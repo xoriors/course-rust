@@ -23,6 +23,7 @@
 6. Move to this week's chapter, `Chapter 3: <Title>`, and do a short intro. Mark the status `In Progress` for the current chapter.
 7. This is where the call ends
 8. Over the week, resolve any comments and questions in the week's chapter and assignment issues and on Slack
+9. Record everything and save videos in `videos/Chapter_N`
 
 ## Final project
 
