@@ -23,6 +23,7 @@ This course is based on [The Rust Book](https://doc.rust-lang.org/book/). We als
   - Address any questions (this will happen also over the week via Slack or GitHub issues)
   - Discuss practical examples
   - Give a new assignment for last week's chapter
+- Everything will be video recorded and made available in this repo for anybody to use
 
 ### Chapters
 
