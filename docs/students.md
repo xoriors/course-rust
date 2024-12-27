@@ -5,7 +5,7 @@
 
 ## Reading the weekly chapter
 
-- Locate the chapter GitHub issue in the course project. Let's say it's the [course QA manual 2025](https://github.com/orgs/xoriors/projects/2) for [Chapter 1](https://github.com/xoriors/qa-manual-course/issues/1)
+- Locate the chapter GitHub issue in the course project. Let's say it's the [course QA manual 2025](https://github.com/orgs/xoriors/projects/2) for [Chapter 1](#1)
 - Read the corresponding week number chapter from [The Rust Book](https://doc.rust-lang.org/book/)
 - Ask any questions in the issue or to Slack
 
@@ -13,11 +13,11 @@
 
 Fork the repo or create a new branch in this repo.
 
-- Locate the chapters assignment GitHub issue in the course project. Let's say it's the [course Rust 2025](https://github.com/orgs/xoriors/projects/3) for [Chapter 1-3: Assignment](https://github.com/xoriors/course-rust/issues/2)
+- Locate the chapters assignment GitHub issue in the course project. Let's say it's the [course Rust 2025](https://github.com/orgs/xoriors/projects/3) for [Chapter 1-3: Assignment](#2)
 - In the assignment branch, create a new folder with your GitHub account ID in [/assignments/Chapter_1/solutions](../assignments/Chapter_1-3/solutions), replacing `Chapter_1-3` with the corresponding week's chapters
 - Add the needed files to complete the assignment
 - Create a PR back to this repo for the `main` branch, titled with the assignment issue title and including `#ID`. Also, link the assignment issue in the PR's description.
-  In this case, the title is `Chapter 1-3: Assignment #2 `, and the link to add to the description is [`https://github.com/xoriors/qa-manual-course/issues/2`](https://github.com/xoriors/course-rust/issues/2)
+  In this case, the title is `Chapter 1-3: Assignment #2 `, and the link to add to the description is [`#2`](#2)
 - Assign the PR to a reviewer
 - Follow up on any comments and questions, pushing additional changes to the PR's branch until the PR is merged
 
