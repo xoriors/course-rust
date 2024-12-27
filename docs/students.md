@@ -5,7 +5,7 @@
 
 ## Reading the weekly chapter
 
-- Locate the chapter GitHub issue in the course project. Let's say it's the [course Rust 2025](https://github.com/orgs/xoriors/projects/3) for [Chapter 1](#4)
+- Locate the chapter GitHub issue in the course project. Let's say it's the [course Rust 2025](https://github.com/orgs/xoriors/projects/3) for [Chapter 1-3](#4)
 - Read the corresponding week number chapter from [The Rust Book](https://doc.rust-lang.org/book/)
 - Ask any questions in the issue or to Slack
 
