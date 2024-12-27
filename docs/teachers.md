@@ -3,8 +3,8 @@
 ## Course setup
 
 1. Join [Slack channel](https://xorio.slack.com/archives/C0869LC717B). Create an account on Slack if needed. You can do it with your Google account
-2. At the beginning of each course, make sure the material is ready in [docs](.) and [assignments](../assignments)
-3. [assignments](../assignments) structure (usually this exists already. Make sure it's valid and change as needed):  
+2. At the beginning of each course, make sure the material is ready in [/docs](.) and [/assignments](../assignments)
+3. [/assignments](../assignments) structure (usually this exists already. Make sure it's valid and change as needed):  
    A folder for each chapters group, like `Chapter_1-3` with the following structure:
      - `requirements` folder: Containing a file called `Chapter_N-M_assignment.md` with the requirements and any other needed resources
      - `solutions` folder: This folder will contain folders with each student's GitHub account ID, each containing submissions from each student, each with an associated PR.  
