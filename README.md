@@ -11,12 +11,18 @@ This course is based on [The Rust Book](https://doc.rust-lang.org/book/). We als
 > - Docs, logistics, a project, and GitHub issues to organize the course interactively
 > - All this Free and Open Source (FOSS)
 
+## Prerequesites
+
+- You should be familiar with the basics of programming, algorithms and data structures
+- It's expected you have some dev experience, preferably with any of C/C++, Go, Java, Kotlin, Python, Haskell, JavaScript, TypeSript or similar
+- You are comfortable learning alone, and you should have taken other similar courses, such as self-paced ones, interactive, video courses, and document courses
+
 ## Structure
 
-- Start on Feb 3 2025 with a short intro call
+- Start on Feb 3 2025, with a short intro call
 - Will last for 8 weeks + final project
 - After 2 weeks, students will be able to build something like a simple calculator
-- Each week, students will read few chapters from `The Rust Book`
+- Each week, students will read a few chapters from `The Rust Book`
 - Every week, we'll have a 2h call where we:
   - Discuss last week's assignment
   - Discuss the last week's chapter
