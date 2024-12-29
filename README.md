@@ -13,7 +13,7 @@ This course is based on [The Rust Book](https://doc.rust-lang.org/book/). We als
 
 ## Structure
 
-- Start with a short intro call
+- Start on Feb 6 2025 with a short intro call
 - Will last for 8 weeks + final project
 - After 2 weeks, students will be able to build something like a simple calculator
 - Each week, students will read few chapters from `The Rust Book`
