@@ -1,6 +1,6 @@
 # For students to follow
 
-1. Fork thsi repo
+1. Fork this repo and do all your commits im there
 2. Join [Slack channel](https://xorio.slack.com/archives/C0869LC717B). Create an account on Slack if needed. You can do it with your Google account
 
 ## Reading the weekly chapter
