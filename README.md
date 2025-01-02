@@ -30,7 +30,7 @@ This course is based on [The Rust Book](https://doc.rust-lang.org/book/). We als
   - Discuss practical examples
   - Give a new assignment for last week's chapter
 - Over the week students may ask any questions over the chat
-- Everything will be video recorded and made available in this repo for anybody to use
+- Everything will be video recorded (except chat or email) and made available in this repo for anybody to use
 
 ### Chapters
 
