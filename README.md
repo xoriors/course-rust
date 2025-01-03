@@ -25,8 +25,8 @@ This course is based on [The Rust Book](https://doc.rust-lang.org/book/). We als
 - Each week, students will read a few chapters from `The Rust Book`
 - Every week, we'll have a 2h call where we:
   - Discuss last week's assignment
-  - Discuss the last week's chapter
-  - Address any questions (this will happen also over the week via Slack or GitHub issues)
+  - Discuss the last week's chapter and address any questions (this will also happen over the week via Slack or GitHub issues)
+  - Briefly present and discuss the next week's course
   - Discuss practical examples
   - Give a new assignment for last week's chapter
 - Over the week students may ask any questions over the chat
