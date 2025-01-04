@@ -1,6 +1,6 @@
 # course-rust
 
-This course is based on [The Rust Book](https://doc.rust-lang.org/book/). We also add more practical examples after each chapter and weekly assignments.
+This course is based on [The Rust Book](https://doc.rust-lang.org/book/). We also add additional practical examples for each chapter, weekly assignments, and final projects.
 
 > [!IMPORTANT]  
 > **WORK IN PROGRESS**
