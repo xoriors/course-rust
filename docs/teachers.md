@@ -2,7 +2,7 @@
 
 ## Course setup
 
-1. Join [Slack channel](https://xorio.slack.com/archives/C0869LC717B). Create an account on Slack if needed. You can do it with your Google account
+1. Make sure you're on the chat or other communication channels with the rest of the team
 2. At the beginning of each course, make sure the material is ready in [/docs](.) and [/assignments](../assignments)
 3. [/assignments](../assignments) structure (usually this exists already. Make sure it's valid and change as needed):  
    A folder for each chapters group, like `Chapter_1-3` with the following structure:
@@ -15,8 +15,8 @@
 
 ## Into the course, for each week
 
-1. Have the weekly call of about 2h to discuss last week's chapter and assignment and intro to this week's chapter and assignment
-2. Review last week's assignment (this corresponds to the chapter from 2 weeks); let's call it `Chapter 1: Assignment`. After this is done, mark the issue as `Done`
+1. Have the weekly call of about 2h to discuss last week's chapter, home assignment, intro to this week's chapter, new home assignment and live coding or present building part of the course main app related to last week's chapters knowledge
+2. Review last week's assignment (this corresponds to the chapter from 2 weeks back); let's call it `Chapter 1: Assignment`. After this is done, mark the issue as `Done`
 3. Discuss last week's chapter, `Chapter 2: <Title>` clarifying any questions
 4. After this is done, mark the issue as `Done`
 5. Give the assignment for last week's chapter (this is called this week's assignment), discuss any questions, and set the issue's status to `In Progress`
