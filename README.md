@@ -13,24 +13,61 @@ This course is based on [The Rust Book](https://doc.rust-lang.org/book/). We als
 
 ## Prerequesites
 
-- You should be familiar with the basics of programming, algorithms and data structures
-- It's expected you have some dev experience, preferably with any of C/C++, Go, Java, Kotlin, Python, Haskell, JavaScript, TypeSript or similar
-- You are comfortable learning alone, and you should have taken other similar courses, such as self-paced ones, interactive, video courses, and document courses
+- Conversational English is mandatory
+- You should be familiar with the basics of programming, algorithms and data structures, and another programming language, preferably with any of C/C++, Go, Java, Kotlin, Python, Haskell, JavaScript, TypeSript or similar
+- Know how to use GitHub
+- Curiosity, able to learn by yourself
+- No specific higher education level is needed
+
+## Advantages of taking the course
+
+- **Why should I take this course:** - To be   initiated in Rust, to understand some advanced programming concepts better
+- **What does the course offer**: - Technical support, Recommended courses, Guided self-learning, Flexibility in organizing your learning schedule, free, no obligations          
+- **What does the course NOT offer** - Certification, assisted learning, job opportunities
+
+## What this course gives you and what is **NOT**
+
+### What it gives you:
+
+- Useful materials to help you learn Rust
+- Short weekly interactive calls (2h) with teachers to teach you and answer your questions
+- Technical support and ability to talk  the mentors to them over GitHub issues or chat over the week
+- Practical examples and weekly assignments
+- It's free, with no obligations
+
+### What it's **NOT**:
+
+- Exhaustive learning course with every day sessions with teachers
+- Paid course
+- Learn at your own pace
+- It doesn't offer you a job
 
 ## Structure
 
-- Start on Feb 3 2025, with a short intro call
 - Will last for 8 weeks + final project
-- After 2 weeks, students will be able to build something like a simple calculator
 - Each week, students will read a few chapters from `The Rust Book`
+- Will build a project from scratch for the whole duration of the course (a mini-Redis distributed on replica mode with a load balancer) run from CLI with se
 - Every week, we'll have a 2h call where we:
   - Discuss last week's assignment
   - Discuss the last week's chapter and address any questions (this will also happen over the week via Slack or GitHub issues)
   - Briefly present and discuss the next week's course
   - Discuss practical examples
+  - Live coding or present building part of the course main app related to last week's chapters knowledge
   - Give a new assignment for last week's chapter
 - Over the week students may ask any questions over the chat
-- Everything will be video recorded (except chat or email) and made available in this repo for anybody to use
+- Weekly calls will be video recorded and made available in this repo for anybody to use
+
+# What you will be able to build from scratch after you take the course
+
+- Relational SQL database
+- NoSQL Verisioned key-value/document database
+- URL shortener
+- Website/service health checker
+- Encrypted filesystem
+- Distributed filesystem
+- File sync service
+- Load balancer
+- Proxy
 
 ### Chapters
 
@@ -66,18 +103,3 @@ Please see [Wiki](https://github.com/xoriors/course-rust/wiki).
 
 - [For teachers](docs/teachers.md).
 - [For students](docs/students.md).
-
-## What this course gives you and what is **NOT**
-
-### What it gives you:
-
-- Useful materials to help you learn Rust
-- Short weekly interactive calls (2h) with teachers to teach you and answer your questions
-- Ability to talk to them over GitHub issues or Slack over the week
-- Practical examples and weekly assignments
-
-### What it's **NOT**:
-
-- Exhaustive learning course with everyday sessions with teachers
-- Paid course
-- Learn at your own pace
