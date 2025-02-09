@@ -24,4 +24,5 @@ Fork the repo or create a new branch in this repo.
 ## Final project
 
 - After the course is finished, the course project will have a final project assignment. Please complete that based on your availability and ask any questions in the issue or on chat
-- While working on it, please follow the steps from `How to submit your weekly home assignments`[#How-to-submit-your-weekly-home-assignments]
+- While working on it, please follow the steps from [How to submit your weekly home assignments](#How-to-submit-your-weekly-home-assignments)
+
