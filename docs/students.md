@@ -5,7 +5,7 @@
 
 ## Reading the weekly chapter
 
-- Locate the chapter GitHub issue in the course project. Let's say it's the [Chapter 1-3](#4)
+- Locate the chapter GitHub issue in the course project or in [Issues](https://github.com/xoriors/course-rust/issues). Let's say it's the [Chapter 1-3](#4)
 - Read the corresponding week number chapter from [The Rust Book](https://doc.rust-lang.org/book/)
 - Ask any questions in the GH issue or on the chat
 
@@ -13,8 +13,8 @@
 
 Fork the repo or create a new branch in this repo.
 
-- Locate the chapter assignment for the GitHub issue in the course project. Let's say it's [Chapter 1-3: Assignment](#5)
-- In the assignment folder, create a new folder with your GitHub account ID in [/assignments/Chapter_1-3/solutions](../assignments/Chapter_1-3/solutions), replacing `Chapter_1-3` with the corresponding week's chapters
+- Locate the chapter assignment for the GitHub issue in the course project or in [Issues](https://github.com/xoriors/course-rust/issues). Let's say it's [Chapter 1-3: Assignment](#5)
+- Create a new folder with your GitHub account ID in [/assignments/Chapter_1-3/solutions](../assignments/Chapter_1-3/solutions), replacing `Chapter_1-3` with the corresponding week's chapters
 - Add the needed files to complete the assignment
 - Create a PR back to this repo for the `main` branch, titled with the assignment issue title and including `#ID`. Also, add the assignment issue ID as `#ID` in the PR's description.
   In this case, the title is `Chapter 1-3: Assignment #5 `, and the id to add to the description is `#5` (this will be converted to a link to the issue by GitHub on view)
