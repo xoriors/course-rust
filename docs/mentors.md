@@ -1,4 +1,4 @@
-# For the teachers to follow
+# For the mentors to follow
 
 ## Course setup
 
