@@ -101,5 +101,5 @@ Please see [Wiki](https://github.com/xoriors/course-rust/wiki).
 
 ## Into the course
 
-- [For teachers](docs/teachers.md).
+- [For mentors](docs/mentors.md).
 - [For students](docs/students.md).
