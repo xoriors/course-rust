@@ -15,15 +15,22 @@
 
 ## Into the course, for each week
 
-1. Have the weekly call of about 2h to discuss last week's chapter, home assignment, intro to this week's chapter, new home assignment and live coding or present building part of the course main app related to last week's chapters knowledge
-2. Review last week's assignment (this corresponds to the chapter from 2 weeks back); let's call it `Chapter 1: Assignment`. After this is done, mark the issue as `Done`
-3. Discuss last week's chapter, `Chapter 2: <Title>` clarifying any questions
-4. After this is done, mark the issue as `Done`
-5. Give the assignment for last week's chapter (this is called this week's assignment), discuss any questions, and set the issue's status to `In Progress`
-6. Move to this week's chapter, `Chapter 3: <Title>`, and do a short intro. Mark the status `In Progress` for the current chapter.
-7. This is where the call ends
-8. Over the week, resolve any comments and questions in the week's chapter and assignment issues and on Slack
-9. Record everything and save videos in `videos/Chapter_N`
+1. Create a GH issue for the theory part for the given chapters for the next week session, like `Course 4` and include the table of contents of the chapters
+2. Create a GH issue for the home assignment for the given chapters for the last week session, like `Course 1-3` and include the requirements and any needed files in there
+3. Have the weekly call of about 2h to discuss:
+  - Review last week's assignment (this corresponds to the chapter from 2 weeks back); let's call it `Chapter N-2: Assignment`. After this is done, mark the issue as `Done`
+  - Discuss this week's chapters, `Chapter 1-3` clarifying any questions
+  - New home assignment for this week's chapters. Show them the GH issue for it and instruct them to create PR in there and ask their questions
+  - Intro to ds and show the GH issue for it, instructing the students to add their questions in there
+  - live coding or present building part of the course main app related to last week's chapters knowledge
+4. 
+5. 
+6. After this is done, mark the issue as `Done`
+7. Give the assignment for last week's chapter (this is called this week's assignment), discuss any questions, and set the issue's status to `In Progress`
+8. Move to this week's chapter, `Chapter 3: <Title>`, and do a short intro. Mark the status `In Progress` for the current chapter.
+9. This is where the call ends
+10. Over the week, resolve any comments and questions in the week's chapter and assignment issues and on Slack
+11. Record everything and save videos in `videos/Chapter_N`
 
 ## Final project
 
