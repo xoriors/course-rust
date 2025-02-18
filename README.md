@@ -1,6 +1,6 @@
 # course-rust
 
-This course is based on [The Rust Book](https://doc.rust-lang.org/book/). We also add additional practical examples for each chapter, weekly assignments, and final projects.
+This course is based on [The Rust Book](https://doc.rust-lang.org/book/). We also add practical examples for each chapter, weekly assignments, and final projects.
 
 > [!IMPORTANT]  
 > **WORK IN PROGRESS**
@@ -37,15 +37,16 @@ This course is based on [The Rust Book](https://doc.rust-lang.org/book/). We als
 
 ### What it's **NOT**:
 
-- Exhaustive learning course with every day sessions with teachers
+- Exhaustive learning course with everyday sessions with teachers
 - Paid course
 - Learn at your own pace
 - It doesn't offer you a job
 
 ## Structure
 
-- Will last for 8 weeks + final project
+- Will last for min 8 weeks + final project
 - Each week, students will read a few chapters from `The Rust Book`
+- Home assignments for read chapters. You're encouraged to also [learn by doing](https://github.com/xoriors/course-rust/wiki/Additional-resources#learn-by-doing) using these resources
 - Will build a project from scratch for the whole duration of the course (a mini-Redis distributed on replica mode with a load balancer) run from CLI as server and client, and also as libraries
 - Every week, we'll have a 2h call where we:
   - Discuss last week's assignment
@@ -54,7 +55,7 @@ This course is based on [The Rust Book](https://doc.rust-lang.org/book/). We als
   - Discuss practical examples
   - Live coding or present building part of the course main app related to last week's chapters knowledge
   - Give a new assignment for last week's chapter
-- Over the week students may ask any questions over the chat
+- Over the week, students may ask any questions over the chat
 - Weekly calls will be video recorded and made available in this repo for anybody to use
 
 # What you will be able to build from scratch after you take the course
