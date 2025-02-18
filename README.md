@@ -104,3 +104,10 @@ Please see [Wiki](https://github.com/xoriors/course-rust/wiki).
 
 - [For mentors](docs/mentors.md).
 - [For students](docs/students.md).
+
+## Get in touch
+
+If you’re interested, join xorio on [Discord](https://discord.com/invite/3W3mwWvz8y) and select `Rust course` and others you're interested in.  
+There will be several mentors.
+
+If you’re interested in other courses not found there, in `#courses` see the form in the channel's description, vote for which ones you want, and we will organize them based on demand. We are collecting your email so we can notify you when we organize them, and we will post them in the hashtag#courses channel.
