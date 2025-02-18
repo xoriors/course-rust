@@ -46,7 +46,7 @@ This course is based on [The Rust Book](https://doc.rust-lang.org/book/). We als
 
 - Will last for 8 weeks + final project
 - Each week, students will read a few chapters from `The Rust Book`
-- Will build a project from scratch for the whole duration of the course (a mini-Redis distributed on replica mode with a load balancer) run from CLI with se
+- Will build a project from scratch for the whole duration of the course (a mini-Redis distributed on replica mode with a load balancer) run from CLI as server and client, and also as libraries
 - Every week, we'll have a 2h call where we:
   - Discuss last week's assignment
   - Discuss the last week's chapter and address any questions (this will also happen over the week via Slack or GitHub issues)
