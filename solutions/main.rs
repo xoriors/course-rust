@@ -1,8 +1,8 @@
-use rand::Rng;
 use std::io;
+use std::time::Instant;
+use cryptoMiningAssignment::random_removal; // Import from lib.rs
 
 fn main() {
-    // Step 1: Read N from user
     println!("Enter a number between 1 and 100:");
 
     let mut input = String::new();
@@ -15,35 +15,30 @@ fn main() {
         return;
     }
 
-    let mut rng = rand::rng();
-    let mut trials: Vec<usize> = Vec::new();
+    let mut trials = Vec::new();
+    let mut times = Vec::new();
 
-    for _ in 0..100 { // Repeat the experiment 100 times
-        // Step 2: Generate N random numbers and store them
-        let mut numbers: Vec<f32> = (0..n)
-            .map(|_| rng.random_range(0.0..1.0))
-            .collect();
-
-        let mut count = 0;
-
-        // Step 3: Keep generating numbers until we remove all from the list
-        while !numbers.is_empty() {
-            count += 1;
-            let rand_num = rng.random_range(0.0..1.0);
-
-            // Remove elements that match (allow small precision tolerance)
-            numbers.retain(|&x| (x - rand_num).abs() > 1e-5);
-        }
+    for _ in 0..100 {
+        let start_time = Instant::now();
+        let count = random_removal(n);
+        let duration = start_time.elapsed().as_secs_f64();
 
         trials.push(count);
+        times.push(duration);
     }
 
-    // Step 4: Compute min, max, and avg
     let min = *trials.iter().min().unwrap();
     let max = *trials.iter().max().unwrap();
-    let avg: f32 = trials.iter().sum::<usize>() as f32 / trials.len() as f32;
+    let avg = trials.iter().sum::<usize>() as f32 / trials.len() as f32;
+
+    let min_time = times.iter().cloned().fold(f64::INFINITY, f64::min);
+    let max_time = times.iter().cloned().fold(f64::NEG_INFINITY, f64::max);
+    let avg_time = times.iter().sum::<f64>() / times.len() as f64;
 
     println!("Minimum iterations: {}", min);
     println!("Maximum iterations: {}", max);
     println!("Average iterations: {:.2}", avg);
+    println!("Minimum time taken: {:.6} seconds", min_time);
+    println!("Maximum time taken: {:.6} seconds", max_time);
+    println!("Average time taken: {:.6} seconds", avg_time);
 }
