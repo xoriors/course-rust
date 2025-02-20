@@ -1,5 +1,9 @@
 use std::io;
 use rand::Rng;
+use rand::distributions::WeightedIndex;
+use rand::distributions::Distribution;
+
+const BILLION: u64 = 1_000_000_000;
 
 struct Result {
     size: u8,
@@ -20,17 +24,31 @@ fn main() {
 
         for _ in 0..100 { // fiecare iteratie
             let n: usize = size.into();
-            let mut array:Vec<f32> = vec![0.0; n];
+            let mut rng = rand::thread_rng();
+
+            let mut array:Vec<u64> = vec![0; n];
+            let mut weights:Vec<u64> = vec![0; (BILLION / 100) as usize];
 
             for i in 0..n {
-                array[i] = rand::thread_rng().gen_range(0.0..1.0);
+                array[i] = rng.gen_range(0..BILLION);
+                weights[(array[i] / 100) as usize] += 1;
             }
+
+            let dist = WeightedIndex::new(&weights).unwrap();
+
+            // println!("Weights: {dist:?}");
+
+            // println!("Array: {array:?}");
 
             let mut counter = 0;
 
             loop {
                 counter += 1;
-                let num = rand::thread_rng().gen_range(0.0..1.0);
+                // let num = rand::thread_rng().gen_range(0..BILLION);
+                let mut num: u64 = (dist.sample(&mut rng) * 100 + rng.gen_range(0..100)).try_into().unwrap();
+
+                // small hack -> weighted gen pt num / 100 + random gen 0-100
+
                 if array.contains(&num) {
                     let index = array.iter().position(|&x| x == num).unwrap();
                     array.remove(index);
