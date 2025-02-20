@@ -1,6 +1,7 @@
 use core::f64;
 use std::io;
 
+
 fn main() {
     // taking input from the user 
     let mut user_input = String::new();
@@ -15,7 +16,7 @@ fn main() {
     // subsequently push them into an array
     else {
         //initalizing the array
-        let mut float_array:[f64;1_000] = [0.0;1_000];
+        let mut float_array:[f64;1_0] = [0.0;1_0];
         //doubles as a counter and an index for the array
         let mut array_index:u16 = 0;
         let mut loop_amount:u16 = 0;
@@ -37,12 +38,16 @@ fn main() {
             //initalizing random float with in range
             let generated_float:f64 = rand::random_range(0.0..=1.0);
             //initalizing the counter
-            let mut counter = 0;
+            let mut counter:u16 = 0;
+
+            let this = float_array.get(2).unwrap();
+            println!("well >{this}");
 
             loop_amount += 1;
             counter +=1;
             if counter == user_input {break}
         }
+        println!("This is your loop counter {loop_amount}");
 
     }
     
