@@ -1,4 +1,4 @@
-use std::io;
+use std::{io,time::Instant};
 
 
 fn main() {
@@ -38,6 +38,7 @@ fn main() {
         println!("-------------------------------------\nThis is the extracted array with the random generated numbers:\n{:#?}", extracted_array);
         let mut total_loop = 0;
         let mut loop_array:[u64;100] = [0;100];
+        let mut time_array:[f32;100] = [0.0;100];
         //looping hundred times
         //initalizing the loop counter
         loop {        
@@ -47,6 +48,7 @@ fn main() {
             println!("---------------------------------- Loop({})",total_loop + 1);
 
             // Loop to see how much it takes to regenerate the same numbers
+            let now = Instant::now();
             loop {
                 // Generate a random float
                 let generated_float: f32 = rand::random_range(0.0..=1.0);
@@ -63,18 +65,24 @@ fn main() {
                 }
 
                 loop_amount += 1;
+
                 if success == user_input {break}
             }
+            let time_taken = now.elapsed().as_secs_f32();
             loop_array[total_loop] = loop_amount;
+            time_array[total_loop] = time_taken;
             total_loop += 1;
             if total_loop == 100 {break}
         }
+
         loop_array.sort();
+        time_array.sort_by(|a, b| a.partial_cmp(b).unwrap());
         //for debugging purposes
-        //println!("Array {:#?}",loop_array);
-        println!("This is the Minimum loop needed {}",loop_array[0]);
-        println!("This is the Average loop needed {}",loop_array[49]);
-        println!("This is the Maximum loop needed {}",loop_array[99]);
+        println!("Array {:#?}",loop_array);
+        println!("Array {:#?}",time_array);
+        println!("This is the Minimum loop {} and time {} needed",loop_array[0] ,time_array[0]);
+        println!("This is the Minimum loop {} and time {} needed",loop_array[49] ,time_array[49]);
+        println!("This is the Minimum loop {} and time {} needed",loop_array[99] ,time_array[99]);
 
     }
 }
