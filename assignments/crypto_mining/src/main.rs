@@ -34,7 +34,7 @@ fn main() {
                 weights[(array[i] / 100) as usize] += 1;
             }
 
-            let dist = WeightedIndex::new(&weights).unwrap();
+            let mut dist = WeightedIndex::new(&weights).unwrap();
 
             // println!("Weights: {dist:?}");
 
@@ -56,6 +56,9 @@ fn main() {
                     if array.is_empty() {
                         break;
                     }
+                    // let weight_index: usize = (num / 100).try_into().unwrap();
+                    weights[(num / 100) as usize] -= 1;
+                    dist.update_weights(&[((num / 100).try_into().unwrap(), &(weights[(num / 100) as usize]))]).unwrap();
                 }
             }
 
