@@ -53,6 +53,7 @@ fn main() {
         let extracted_float = &mut float_array[0..user_input as usize];
         let extracted_int = &mut int_array[0..user_input as usize];
 
+        //For the uniform and the weighted distribution
         println!("-------------------------------------\nThis is the extracted array with the random generated numbers:\n{:#?}", extracted_float);
         println!("-------------------------------------\nThis is the extracted array with the random generated numbers:\n{:#?}", extracted_int);
         let mut uniform_total_loop = 0;
