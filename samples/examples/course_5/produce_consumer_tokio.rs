@@ -43,9 +43,13 @@ impl WorkerPool {
     }
 
     async fn submit_task(&self, task: fn() -> ()) {
-        self.tx.send(Box::new(task)).await.unwrap_or_else(|e| {
-            eprintln!("Failed to submit task: {:?}", e);
-        });
+        self.tx
+            .clone()
+            .send(Box::new(task))
+            .await
+            .unwrap_or_else(|e| {
+                eprintln!("Failed to submit task: {:?}", e);
+            });
     }
 }
 
