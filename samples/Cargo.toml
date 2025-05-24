@@ -1,0 +1,11 @@
+[package]
+name = "course-rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+
+[[bin]]
+name = "course_5_produce_consumer_tokio"
+path = "examples/course_5/produce_consumer_tokio.rs"
